@@ -1,0 +1,100 @@
+@import "bourbon";
+@import "susy";
+@import _map.scss
+
+
+
+.clear
+	clear: both
+
+.clearfix:before,.clearfix:after
+	content: ""		
+	display: table
+.clearfix:after
+	clear: both
+.clearfix
+	zoom: 1 /* ie 6/7 */
+
+
+// shorthand
+$desktop: 12 (60px 40px) split
+$pad: 6 (80px 40px) split
+
+$w_desktop: 12 split
+$w_pad: 6 split
+
+
+$breakpoint_desktop: 864px
+$breakpoint_pad: 0 863px
+
+$susy: (debug: (image: hide))
+
+
+.category_item
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+		.list_content
+			+span(6)
+			margin-bottom: 50px
+			h6 
+				font-size: 24px
+				color: #900
+				margin-bottom: 15px
+				text-align: center
+				border-bottom: 1px solid #c0c0c0
+				padding-bottom: 10px
+			a 
+				display: block
+				height: 30px
+				font-size: 18px
+				text-align: center
+				line-height: 1.3
+				margin-bottom: 5px
+
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		
+		.list_content
+			+span(3)
+			margin-bottom: 50px
+			h6 
+				font-size: 24px
+				color: #900
+				margin-bottom: 15px
+				text-align: center
+				border-bottom: 1px solid #c0c0c0
+				padding-bottom: 10px
+			a 
+				display: block
+				height: 30px
+				font-size: 18px
+				text-align: center
+				line-height: 1.3
+				margin-bottom: 5px
+
+
+
+.bg-screen
+	+susy-breakpoint($breakpoint_pad, $w_pad)
+		+container
+		background: url('../img/bg-1.jpg') center bottom
+		height: 300px
+		background-size: 100%
+		background-repeat: no-repeat
+		background-size: cover
+
+	+susy-breakpoint($breakpoint_desktop, $w_desktop)
+		+container
+		background: url('../img/bg-1.jpg') center bottom
+		height: 500px
+		background-size: 100%
+		background-repeat: no-repeat
+
+
+
+
+
+
+
+
+

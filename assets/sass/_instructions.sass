@@ -1,0 +1,109 @@
+@import "bourbon";
+@import "susy";
+@import _map.scss
+
+
+
+.clear
+	clear: both
+
+.clearfix:before,.clearfix:after
+	content: ""		
+	display: table
+.clearfix:after
+	clear: both
+.clearfix
+	zoom: 1 /* ie 6/7 */
+
+
+// shorthand
+$desktop: 12 (60px 40px) split
+$pad: 6 (80px 40px) split
+
+$w_desktop: 12 split
+$w_pad: 6 split
+
+
+$breakpoint_desktop: 864px
+$breakpoint_pad: 0 863px
+
+$susy: (debug: (image: hide))
+
+
+
+
+.instructions
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+		padding: 0 20px
+		h4 
+			font-size: 20px
+			line-height: 1.2
+			margin-bottom: 20px
+			color: #05a585
+			padding-top: 20px
+			border-top: 1px solid #c0c0c0
+		h6 
+			font-size: 20px
+			line-height: 1.2
+			margin-bottom: 20px
+			color: #05a585
+			padding-top: 3px
+			margin-top: 30px
+		h5
+			font-size: 14px
+			line-height: 1.2
+			margin-bottom: 20px
+			color: #444
+		p 
+			font-size: 15px
+			line-height: 1.4
+			margin-bottom: 8px
+			color: #888
+
+		.attached_file
+			display: block
+			font-size: 14px
+			margin-bottom: 20px
+			i 
+				margin-right: 3px
+
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		padding: 0 40px
+		h4 
+			font-size: 20px
+			line-height: 1.2
+			margin-bottom: 20px
+			color: #05a585
+			padding-top: 20px
+			border-top: 1px solid #c0c0c0
+		h6 
+			font-size: 20px
+			line-height: 1.2
+			margin-bottom: 10px
+			color: #05a585
+			padding-bottom: 8px
+			margin-top: 40px
+			border-bottom: 1px solid #e0e0e0
+
+		h5
+			font-size: 14px
+			line-height: 1.2
+			margin-bottom: 20px
+			color: #444
+		p 
+			font-size: 15px
+			line-height: 1.4
+			margin-bottom: 8px
+			color: #888
+
+		.attached_file
+			display: block
+			font-size: 14px
+			margin-bottom: 20px
+			i 
+				margin-right: 3px
+
+
+
