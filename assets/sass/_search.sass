@@ -29,14 +29,7 @@ $breakpoint_pad: 0 863px
 
 $susy: (debug: (image: hide))
 
-.h300
-	height: 300px !important
-	visibility: visible !important
-	opacity: 1 !important
-	color: #FFF
-	display: flex
-	justify-content: center
-	align-items: center
+
 
 .search_section
 	+susy-breakpoint($breakpoint_pad, $pad)
@@ -47,59 +40,7 @@ $susy: (debug: (image: hide))
 
 	+susy-breakpoint($breakpoint_desktop, $desktop)
 		+container
-		.select_item
-			+span(12)
-			height: 50px
-			// background: #189
-			border-bottom: 1px solid #e0e0e0
-			margin-bottom: 10px
-			display: flex
-			justify-content: flex-start
-			align-items: flex-end
-			.advanced_search_btn
-				display: block
-				padding: 10px 20px
-				border: 1px solid #5fb8eb
-				background: #5fb8eb
-				color: #FFF
-				border-radius: 3px
-				margin-bottom: 10px
-				margin-right: 15px
-				font-size: 14px
-				transition: all .3s
-				i 
-					margin-right: 5px
-					font-size: 16px
-				&:hover
-					border: 1px solid #5fb8eb
-					background: #5fb8eb
-					color: #FFF
-			.output
-				display: block
-				padding: 10px 20px
-				border: 1px solid #c0c0c0
-				border-radius: 3px
-				margin-bottom: 10px
-				margin-right: 15px
-				font-size: 14px
-				transition: all .3s
-				i 
-					margin-right: 5px
-					font-size: 16px
-				&:hover
-					border: 1px solid #5fb8eb
-					background: #5fb8eb
-					color: #FFF
-		.advanced_search
-			+span(12)
-			height: 0px
-			background: #b8ce92
-			margin-bottom: 10px
-			visibility: hidden
-			opacity: 0
-			transition: all .2s
-
-
+	
 		.after_classification
 			+span(3)
 			height: 900px
@@ -492,4 +433,140 @@ $color--secondary: #0E647D
 		height: 30px
 		font-size: 14px
 		color: #888
+
+
+
+.h300
+	height: 400px !important
+	visibility: visible !important
+	opacity: 1 !important
+	padding: 30px 50px !important
+	color: #FFF
+	display: flex
+	justify-content: center
+	align-items: flex-start
+
+
+
+.need_search
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+		
+
+
+
+
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		.select_item
+			+span(12)
+			
+			height: 50px
+			// background: #189
+			border-bottom: 1px solid #e0e0e0
+			margin-bottom: 10px
+			display: flex
+			justify-content: flex-end
+			align-items: flex-end
+			.advanced_search_btn
+				display: block
+				padding: 10px 20px
+				border: 1px solid #5fb8eb
+				background: #5fb8eb
+				color: #FFF
+				border-radius: 3px
+				margin-bottom: 10px
+				margin-right: 15px
+				font-size: 14px
+				transition: all .3s
+				i 
+					margin-right: 5px
+					font-size: 16px
+				&:hover
+					border: 1px solid #5fb8eb
+					background: #5fb8eb
+					color: #FFF
+			.output
+				display: block
+				padding: 10px 20px
+				border: 1px solid #c0c0c0
+				border-radius: 3px
+				margin-bottom: 10px
+				margin-right: 15px
+				font-size: 14px
+				transition: all .3s
+				i 
+					margin-right: 5px
+					font-size: 16px
+				&:hover
+					border: 1px solid #5fb8eb
+					background: #5fb8eb
+					color: #FFF
+		.advanced_search
+			+span(12)
+			height: 0px
+			background: #b8ce92
+			margin-bottom: 10px
+			visibility: hidden
+			opacity: 0
+			transition: all .2s
+			padding: 0
+			.search-section
+				width: 100%
+				display: flex
+				flex-direction: column
+				justify-content: flex-start
+				align-items: flex-start
+				h6 
+					font-size: 19px
+					width: 100%
+					margin-bottom: 20px
+					padding-bottom: 10px
+					color: #416344
+					border-bottom:  1px solid #d0e8a6
+
+				.s-item
+					width: 100%
+					display: flex
+					justify-content: flex-start
+					align-items: center
+					margin-bottom: 13px
+					padding-bottom: 8px
+					p
+						margin-right: 10px 
+						width: 90px	
+					input
+						width: 50%
+				.bottons
+					width: 100%
+					padding-top: 15px
+					display: flex
+					justify-content: flex-start
+					align-items: center
+					border-top: 1px solid #d0e8a6
+					.sure
+						display: block
+						width: 130px
+						height: 40px
+						background: #039d98
+						color: #FFF
+						border-radius: 3px
+						display: flex
+						justify-content: center
+						align-items: center
+						margin-right: 20px
+									
+					.clean
+						display: block
+						width: 130px
+						height: 40px
+						background: #039d98
+						color: #FFF
+						border-radius: 3px
+						display: flex
+						justify-content: center
+						align-items: center
+						margin-right: 20px
+
+
 
