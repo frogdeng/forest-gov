@@ -1,0 +1,88 @@
+{# index.twig #}
+{% extends "/_template/layout.twig" %}
+{% block page %}
+
+
+
+
+<div class="mainslider-static bgimg_encyclopedia">
+	<div class="blacktree"></div>
+	<div class="butterfly"><img src="img/butterfly.png" alt=""></div>
+</div>
+<div class="black-static">
+	<div class="search_section">
+		<input type="text">
+		 <a href="" class="lens_icon"><i class="fa fa-search" aria-hidden="true"></i></a>
+	</div>
+</div>	
+
+
+<div class="breac_crumbs">
+	<a href="">首頁</a>  > <p>時間軸</p>
+</div>
+
+
+<div id="map" class="map"></div>
+
+<div class="time-t">
+	
+</div>
+
+
+
+ <script>
+    var myLatLng = {lat: 24.647726,  lng: 121.796431};
+	var map;
+	function initMap() {
+		  map = new google.maps.Map(document.getElementById('map'), {
+		    zoom: 10,
+		    mapTypeId	: google.maps.MapTypeId.ROADMAP,
+			scrollwheel: false,
+			center: myLatLng
+
+		  });
+		var marker = new google.maps.Marker({
+		    position: myLatLng,
+		    map: map,
+		    animation: google.maps.Animation.DROP,
+		    title: 'KKBOX!'
+  		});
+  		 marker.addListener('click', toggleBounce);
+	}
+
+	function toggleBounce() {
+	  if (marker.getAnimation() !== null) {
+	    marker.setAnimation(null);
+	  } else {
+	    marker.setAnimation(google.maps.Animation.BOUNCE);
+	  }
+	}
+
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer>
+</script>
+
+
+
+<!-- <div class="bg-screen"></div>
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
