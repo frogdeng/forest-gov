@@ -1268,7 +1268,7 @@ h2 {
 
 .fat-footer_show {
   display: block !important;
-  height: 300px !important;
+  height: 350px !important;
   visibility: visible !important;
   opacity: 1 !important; }
 
@@ -2172,6 +2172,158 @@ h2 {
     line-height: 1.3;
     margin-bottom: 8px; }
   .video_page .related_link .result_item p {
+    font-size: 13px;
+    color: #888;
+    margin-left: 13px;
+    line-height: 1.3;
+    margin-bottom: 3px; } }
+
+@media (min-width: 0) and (max-width: 863px) {
+  .photo_page {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto; }
+  .photo_page:after {
+    content: " ";
+    display: block;
+    clear: both; } }
+
+@media (min-width: 864px) {
+  .photo_page {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px; }
+  .photo_page:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .photo_page .photo_content {
+    width: 63.33333%;
+    float: left;
+    margin-left: 1.66667%;
+    margin-right: 1.66667%;
+    margin-bottom: 50px; }
+  .photo_page .photo_content .main_photo {
+    width: 100%;
+    margin-bottom: 40px;
+    background: #222;
+    position: relative; }
+  .photo_page .photo_content .main_photo .control_bar {
+    position: absolute;
+    width: 100%;
+    height: 43px;
+    background: rgba(6, 98, 70, 0.8);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    bottom: 0;
+    left: 0; }
+  .photo_page .photo_content .main_photo .control_bar .control_photo {
+    width: 50%;
+    height: 43px;
+    padding: 0 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center; }
+  .photo_page .photo_content .main_photo .control_bar .control_photo .play {
+    margin: 0 18px;
+    opacity: .7;
+    transition: all .3s;
+    cursor: pointer; }
+  .photo_page .photo_content .main_photo .control_bar .control_photo .play i {
+    color: #FFF;
+    font-size: 30px; }
+  .photo_page .photo_content .main_photo .control_bar .control_photo .play:hover {
+    opacity: 1; }
+  .photo_page .photo_content .main_photo .control_bar .control_photo .forward {
+    margin: 0 18px;
+    opacity: .7;
+    transition: all .3s;
+    cursor: pointer; }
+  .photo_page .photo_content .main_photo .control_bar .control_photo .forward i {
+    color: #FFF;
+    font-size: 20px; }
+  .photo_page .photo_content .main_photo .control_bar .control_photo .forward:hover {
+    opacity: 1; }
+  .photo_page .photo_content .main_photo .control_bar .number {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #006147;
+    width: 46px;
+    height: 43px;
+    color: #FFF;
+    font-size: 16px; }
+  .photo_page .photo_content h4 {
+    font-size: 30px;
+    color: #58acf3;
+    line-height: 1.3;
+    margin-bottom: 5px; }
+  .photo_page .photo_content h5 {
+    font-size: 20px;
+    color: #777;
+    line-height: 1.3;
+    margin-bottom: 25px; }
+  .photo_page .photo_content p {
+    font-size: 14px;
+    color: #888;
+    line-height: 1.4;
+    margin-bottom: 10px; }
+  .photo_page .photo_content p span {
+    margin-right: 10px;
+    font-weight: 700;
+    color: #555; }
+  .photo_page .related_link {
+    width: 30%;
+    float: left;
+    margin-left: 1.66667%;
+    margin-right: 1.66667%; }
+  .photo_page .related_link .result_item {
+    width: 100%;
+    background: #e0e0e0;
+    margin-bottom: 15px;
+    padding-bottom: 8px; }
+  .photo_page .related_link .result_item .photo {
+    position: relative; }
+  .photo_page .related_link .result_item .photo .play_btn {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .photo_page .related_link .result_item .photo .play_btn img {
+    width: 20%; }
+  .photo_page .related_link .result_item .photo img {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px; }
+  .photo_page .related_link .result_item h6 {
+    font-size: 18px;
+    color: #5fb8eb;
+    margin-left: 13px;
+    line-height: 1.3;
+    margin-bottom: 8px; }
+  .photo_page .related_link .result_item h5 {
+    font-size: 13px;
+    color: #5fb8eb;
+    margin-left: 13px;
+    line-height: 1.3;
+    margin-bottom: 8px; }
+  .photo_page .related_link .result_item p {
     font-size: 13px;
     color: #888;
     margin-left: 13px;

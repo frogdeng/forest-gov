@@ -264,6 +264,145 @@ $susy: (debug: (image: hide))
 					line-height: 1.3
 					margin-bottom: 3px
 		
+.photo_page
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+		
+
+
+
+
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		padding: 20px
+		.photo_content
+			+span(8)
+			
+			margin-bottom: 50px
+			.main_photo
+				width: 100%
+				margin-bottom: 40px
+				background: #222
+				position: relative
+				.control_bar
+					position: absolute
+					width: 100%
+					height: 43px
+					background: rgba(6,98,70, .8)
+					display: flex
+					justify-content: space-between
+					align-items: center
+					bottom: 0
+					left: 0
+					.control_photo
+						width: 50%
+						height: 43px
+						padding: 0 10px
+						display: flex
+						justify-content: flex-start
+						align-items: center
+						.play
+							margin: 0 18px
+							opacity: .7
+							transition: all .3s
+							cursor: pointer
+							i 
+								color: #FFF
+								font-size: 30px	
+							&:hover
+								opacity: 1
+
+						.forward
+							margin: 0 18px
+							opacity: .7
+							transition: all .3s
+							cursor: pointer	
+							i 
+								color: #FFF
+								font-size: 20px
+							&:hover
+								opacity: 1
+					.number
+						display: flex
+						justify-content: center
+						align-items: center
+						background: #006147
+						width: 46px
+						height: 43px
+						color: #FFF
+						font-size: 16px
+
+
+
+
+
+			h4
+				font-size: 30px
+				color: #58acf3
+				line-height: 1.3
+				margin-bottom: 5px
+
+			h5
+				font-size: 20px
+				color: #777
+				line-height: 1.3
+				margin-bottom: 25px
+			p
+				font-size: 14px
+				color: #888
+				line-height: 1.4
+				margin-bottom: 10px
+				span
+					margin-right: 10px
+					font-weight: 700
+					color: #555
+
+
+
+		.related_link
+			+span(4)
+			.result_item
+				width: 100%
+				background: #e0e0e0
+				margin-bottom: 15px
+				padding-bottom: 8px
+				.photo
+					position: relative
+					.play_btn
+						width: 100%
+						height: 100%
+						position: absolute
+						display: flex
+						justify-content: center
+						align-items: center
+						img
+							width: 20%
+
+					img
+						display: block
+						width: 100%
+						margin-bottom: 10px
+				
+				h6
+					font-size: 18px
+					color: #5fb8eb
+					margin-left: 13px
+					line-height: 1.3
+					margin-bottom: 8px
+				h5 
+					font-size: 13px
+					color: #5fb8eb
+					margin-left: 13px
+					line-height: 1.3
+					margin-bottom: 8px
+				p 
+					font-size: 13px
+					color: #888
+					margin-left: 13px
+					line-height: 1.3
+					margin-bottom: 3px
+		
+
 
 
 $color--white: #FFFFFF
@@ -273,8 +412,6 @@ $color--grey: #CCCCCC
 $color--dark-grey: #7B7B7B
 $color--primary: #2AA1C0
 $color--secondary: #0E647D
-
-
 
 .simple-search
 	+susy-breakpoint($breakpoint_pad, $pad)
