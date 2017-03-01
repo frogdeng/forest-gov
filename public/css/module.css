@@ -588,6 +588,8 @@ h2 {
   header .forestlogo .word .bigward {
     color: #FFF;
     font-size: 25px; }
+  header .login_section_mobile {
+    display: none; }
   header .deskmenu {
     width: 70%; }
   header .deskmenu ul {
