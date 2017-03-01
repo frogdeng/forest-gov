@@ -224,10 +224,10 @@ h2
 header
 	+susy-breakpoint($breakpoint_pad, $w_pad)
 		+container
-		height: 80px
+		height: 160px
 		background: #000
-		padding-left: 20px
 		display: flex
+		flex-direction: column
 		justify-content: center
 		align-items: center
 		.forestlogo
@@ -248,6 +248,29 @@ header
 				.bigward
 					color: #FFF
 					font-size: 23px
+		.login_section_mobile
+			display: block
+			width: 100%
+			height: 50px
+			background-color: #123
+			display: flex
+			justify-content: center
+			align-items: center
+			.icon
+				width: 30px
+				height: 30px
+				border-radius: 50%
+				background: #FFF
+				margin: 0 10px
+				cursor: pointer
+				display: flex
+				justify-content: center
+				align-items: center
+				i 
+					font-size: 18px
+					color: #000
+			.login
+				margin: 0 10px
 		.deskmenu
 			display: none
 		.login_section
@@ -753,20 +776,25 @@ header
 			+span(6)
 			display: flex
 			flex-direction: column
-			justify-content: flex-start			
+			justify-content: center	
 			align-items: center
 			margin-bottom: 23px
-			.hoticon
-				width: 60px
-				margin-bottom: 10px
-			h4 
-				font-size: 25px
-				margin-bottom: 10px
-				color: #555
-			h5 
-				font-size: 14px
-				color: #888
-				margin-bottom: 10px
+			.tt-t
+				display: flex
+				flex-direction: column
+				justify-content: center	
+				align-items: center
+				.hoticon
+					width: 60px
+					margin-bottom: 10px
+				h4 
+					font-size: 25px
+					margin-bottom: 10px
+					color: #555
+				h5 
+					font-size: 14px
+					color: #888
+					margin-bottom: 10px
 		.hot_video_content
 			+span(6)
 			position: relative
@@ -1020,10 +1048,11 @@ footer
 .show_contnet_01
 	+susy-breakpoint($breakpoint_pad, $pad)
 		+container
-		width: 100%
+		width: 90%
 		height: 350px
 		background: #FFF
 		border: 3px solid #00991a
+		z-index: 2000
 		
 		.titile
 			width: 100%
@@ -1044,6 +1073,9 @@ footer
 			margin-bottom: 15px
 			font-size: 14px
 			color: #888
+			input
+				margin-right: 5px
+				border: 1px solid #c0c0c0
 			p
 				font-size: 14px
 				color: #888
@@ -1052,6 +1084,7 @@ footer
 				margin-right: 15px
 				input
 					margin-right: 5px
+
 
 		.submit
 			display: block
@@ -1086,7 +1119,7 @@ footer
 
 	+susy-breakpoint($breakpoint_desktop, $desktop)
 		+container
-		width: 350px
+		width: 380px
 		height: 350px
 		background: #FFF
 		border: 3px solid #00991a
@@ -1222,6 +1255,10 @@ footer
 
 
 
+.mfp-close-btn-in 
+	.mfp-close
+		display: none
+		
 
 
 

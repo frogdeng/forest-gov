@@ -386,11 +386,12 @@ h2 {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    height: 80px;
+    height: 160px;
     background: #000;
-    padding-left: 20px;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -ms-flex-pack: center;
     justify-content: center;
     -ms-flex-align: center;
@@ -419,6 +420,35 @@ h2 {
   header .forestlogo .word .bigward {
     color: #FFF;
     font-size: 23px; }
+  header .login_section_mobile {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: #123;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  header .login_section_mobile .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #FFF;
+    margin: 0 10px;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  header .login_section_mobile .icon i {
+    font-size: 18px;
+    color: #000; }
+  header .login_section_mobile .login {
+    margin: 0 10px; }
   header .deskmenu {
     display: none; }
   header .login_section {
@@ -1019,19 +1049,28 @@ h2 {
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
+    -ms-flex-pack: center;
+    justify-content: center;
     -ms-flex-align: center;
     align-items: center;
     margin-bottom: 23px; }
-  .hotvideo .hottitle .hoticon {
+  .hotvideo .hottitle .tt-t {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .hotvideo .hottitle .tt-t .hoticon {
     width: 60px;
     margin-bottom: 10px; }
-  .hotvideo .hottitle h4 {
+  .hotvideo .hottitle .tt-t h4 {
     font-size: 25px;
     margin-bottom: 10px;
     color: #555; }
-  .hotvideo .hottitle h5 {
+  .hotvideo .hottitle .tt-t h5 {
     font-size: 14px;
     color: #888;
     margin-bottom: 10px; }
@@ -1356,10 +1395,11 @@ h2 {
     max-width: 720px;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 90%;
     height: 350px;
     background: #FFF;
-    border: 3px solid #00991a; }
+    border: 3px solid #00991a;
+    z-index: 2000; }
   .show_contnet_01:after {
     content: " ";
     display: block;
@@ -1388,6 +1428,9 @@ h2 {
     margin-bottom: 15px;
     font-size: 14px;
     color: #888; }
+  .show_contnet_01 .login_item input {
+    margin-right: 5px;
+    border: 1px solid #c0c0c0; }
   .show_contnet_01 .login_item p {
     font-size: 14px;
     color: #888;
@@ -1437,7 +1480,7 @@ h2 {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    width: 350px;
+    width: 380px;
     height: 350px;
     background: #FFF;
     border: 3px solid #00991a; }
@@ -1574,6 +1617,9 @@ h2 {
 
 .switch input:checked + .slider-v1::before {
   left: 3em; }
+
+.mfp-close-btn-in .mfp-close {
+  display: none; }
 
 .clear {
   clear: both; }
