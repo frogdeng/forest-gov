@@ -687,9 +687,17 @@ h2 {
     clear: both; }
   .mainslider .flexslider {
     background: #333; }
-  .mainslider .flexslider img {
-    width: 100%;
-    display: block; }
+  .mainslider .flexslider ul li {
+    display: block;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .mainslider .flexslider ul li .squre {
+    display: none; }
   .mainslider .flexslider .flex-control-nav li {
     display: none; }
   .mainslider .blacktree {
@@ -718,7 +726,42 @@ h2 {
     clear: both; }
   .mainslider .flexslider {
     background: #333; }
-  .mainslider .flexslider img {
+  .mainslider .flexslider ul li {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .mainslider .flexslider ul li .squre {
+    position: absolute;
+    background-color: rgba(3, 80, 63, 0.7);
+    width: 440px;
+    height: 180px;
+    padding: 20px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    margin-left: -220px;
+    margin-top: -120px; }
+  .mainslider .flexslider ul li .squre h6 {
+    font-size: 28px;
+    color: #FFF;
+    line-height: 1.4;
+    margin-bottom: 20px; }
+  .mainslider .flexslider ul li .squre p {
+    font-size: 16px;
+    color: #FFF;
+    line-height: 1.4; }
+  .mainslider .flexslider ul li img {
     width: 100%;
     display: block; }
   .mainslider .blacktree {
