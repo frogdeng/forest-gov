@@ -49,6 +49,9 @@ $(function(){
 	    });
 	  $(".show-4").click(function(){
 	      $('.active-4').addClass("second-open");
+	    });	  
+	  $(".show-5").click(function(){
+	      $('.active-5').addClass("second-open");
 	    });
 
 

@@ -1322,11 +1322,11 @@ h2 {
     background: #444;
     margin-bottom: 20px; }
   footer .fat_footer .fat_footer_item {
-    width: 13.33333%;
+    width: 10.91667%;
     float: left;
     margin-left: 1.66667%;
     margin-right: 1.66667%;
-    padding: 20px;
+    padding: 20px 5px;
     margin-top: 20px; }
   footer .fat_footer .fat_footer_item h6 {
     color: #FFF;
@@ -2697,12 +2697,12 @@ h2 {
     color: #555; }
   .video_page .video_content .social-media {
     width: 100%;
-    margin-top: 30px;
-    padding: 8px 0;
+    margin-bottom: 20px;
+    padding: 5px 0;
     border-bottom: 1px solid #eee;
     border-top: 1px solid #eee; }
   .video_page .video_content .social-media i {
-    font-size: 40px;
+    font-size: 37px;
     margin-right: 10px;
     color: #c8c8c8; }
   .video_page .related_link {
@@ -3004,12 +3004,12 @@ h2 {
     color: #555; }
   .photo_page .photo_content .social-media {
     width: 100%;
-    margin-top: 30px;
-    padding: 8px 0;
+    margin-bottom: 20px;
+    padding: 5px 0;
     border-bottom: 1px solid #eee;
     border-top: 1px solid #eee; }
   .photo_page .photo_content .social-media i {
-    font-size: 40px;
+    font-size: 37px;
     margin-right: 10px;
     color: #c8c8c8; }
   .photo_page .related_link {
