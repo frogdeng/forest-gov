@@ -1342,8 +1342,6 @@ footer
 					color: #FFF
 
 
-
-
 	+susy-breakpoint($breakpoint_desktop, $desktop)
 		+container
 		padding: 0 20px
@@ -1392,6 +1390,143 @@ footer
 	width: 100%
 	height: 100px
 	background: #c0c0c0
+
+
+
+
+.opendata
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+		padding: 0 20px
+		.row-t
+			width: 100%
+			border-bottom: 1px solid #eee
+			transition: all .3s
+
+			h6 
+				color: #222
+				font-size: 14px
+				line-height: 1.4
+			p 
+				color: #888
+				font-size: 14px
+				line-height: 1.4
+			a 
+				color: #00995d
+				font-size: 16px
+				line-height: 1.4
+			.column_1
+				+span(3)
+				height: 45px
+				display: flex
+				justify-content: flex-start
+				align-items: center
+			.column_2
+				+span(1.5)
+				height: 45px
+				display: flex
+				justify-content: flex-start
+				align-items: center
+			.column_3
+				+span(1.5)
+				height: 48px
+				display: flex
+				justify-content: flex-start
+				align-items: center
+
+		.row-page
+			width: 100%
+			border-bottom: 1px solid #eee
+			transition: all .3s
+			h6 
+				color: #222
+				font-size: 16px
+				line-height: 1.4
+			p 
+				color: #888
+				font-size: 14px
+				line-height: 1.4
+				margin-bottom: 6px
+				word-wrap: break-word
+				word-break: break-all
+			a 
+				color: #00995d
+				font-size: 18px
+				line-height: 1.4
+			.column_a
+				+span(2)
+				padding: 10px
+			.column_b
+				+span(4)
+				padding: 10px
+
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		padding: 0 40px
+		.row-t
+			width: 100%
+			border-bottom: 1px solid #eee
+			transition: all .3s
+			&:hover
+				background: #f6f9f0
+				transform: scale(1.05)
+				border-bottom: 1px solid #f6f9f0
+
+			h6 
+				color: #222
+				font-size: 16px
+				line-height: 1.4
+			p 
+				color: #888
+				font-size: 16px
+				line-height: 1.4
+			a 
+				color: #00995d
+				font-size: 18px
+				line-height: 1.4
+			.column_1
+				+span(6)
+				height: 45px
+				display: flex
+				justify-content: flex-start
+				align-items: center
+			.column_2
+				+span(3)
+				height: 45px
+				display: flex
+				justify-content: flex-start
+				align-items: center
+			.column_3
+				+span(3)
+				height: 48px
+				display: flex
+				justify-content: flex-start
+				align-items: center
+
+		.row-page
+			width: 100%
+			border-bottom: 1px solid #eee
+			transition: all .3s
+			h6 
+				color: #222
+				font-size: 16px
+				line-height: 1.4
+			p 
+				color: #888
+				font-size: 16px
+				line-height: 1.4
+				margin-bottom: 6px
+			a 
+				color: #00995d
+				font-size: 18px
+				line-height: 1.4
+			.column_a
+				+span(4)
+				padding: 10px
+			.column_b
+				+span(8)
+				padding: 10px
+				
 
 
 

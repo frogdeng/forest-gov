@@ -1774,6 +1774,196 @@ h2 {
   height: 100px;
   background: #c0c0c0; }
 
+@media (min-width: 0) and (max-width: 863px) {
+  .opendata {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px; }
+  .opendata:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .opendata .row-t {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    transition: all .3s; }
+  .opendata .row-t h6 {
+    color: #222;
+    font-size: 14px;
+    line-height: 1.4; }
+  .opendata .row-t p {
+    color: #888;
+    font-size: 14px;
+    line-height: 1.4; }
+  .opendata .row-t a {
+    color: #00995d;
+    font-size: 16px;
+    line-height: 1.4; }
+  .opendata .row-t .column_1 {
+    width: 44.44444%;
+    float: left;
+    margin-left: 2.77778%;
+    margin-right: 2.77778%;
+    height: 45px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center; }
+  .opendata .row-t .column_2 {
+    width: 19.44444%;
+    float: left;
+    margin-left: 2.77778%;
+    margin-right: 2.77778%;
+    height: 45px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center; }
+  .opendata .row-t .column_3 {
+    width: 19.44444%;
+    float: left;
+    margin-left: 2.77778%;
+    margin-right: 2.77778%;
+    height: 48px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center; }
+  .opendata .row-page {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    transition: all .3s; }
+  .opendata .row-page h6 {
+    color: #222;
+    font-size: 16px;
+    line-height: 1.4; }
+  .opendata .row-page p {
+    color: #888;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 6px;
+    word-wrap: break-word;
+    word-break: break-all; }
+  .opendata .row-page a {
+    color: #00995d;
+    font-size: 18px;
+    line-height: 1.4; }
+  .opendata .row-page .column_a {
+    width: 27.77778%;
+    float: left;
+    margin-left: 2.77778%;
+    margin-right: 2.77778%;
+    padding: 10px; }
+  .opendata .row-page .column_b {
+    width: 61.11111%;
+    float: left;
+    margin-left: 2.77778%;
+    margin-right: 2.77778%;
+    padding: 10px; } }
+
+@media (min-width: 864px) {
+  .opendata {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 40px; }
+  .opendata:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .opendata .row-t {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    transition: all .3s; }
+  .opendata .row-t:hover {
+    background: #f6f9f0;
+    transform: scale(1.05);
+    border-bottom: 1px solid #f6f9f0; }
+  .opendata .row-t h6 {
+    color: #222;
+    font-size: 16px;
+    line-height: 1.4; }
+  .opendata .row-t p {
+    color: #888;
+    font-size: 16px;
+    line-height: 1.4; }
+  .opendata .row-t a {
+    color: #00995d;
+    font-size: 18px;
+    line-height: 1.4; }
+  .opendata .row-t .column_1 {
+    width: 46.66667%;
+    float: left;
+    margin-left: 1.66667%;
+    margin-right: 1.66667%;
+    height: 45px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center; }
+  .opendata .row-t .column_2 {
+    width: 21.66667%;
+    float: left;
+    margin-left: 1.66667%;
+    margin-right: 1.66667%;
+    height: 45px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center; }
+  .opendata .row-t .column_3 {
+    width: 21.66667%;
+    float: left;
+    margin-left: 1.66667%;
+    margin-right: 1.66667%;
+    height: 48px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center; }
+  .opendata .row-page {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    transition: all .3s; }
+  .opendata .row-page h6 {
+    color: #222;
+    font-size: 16px;
+    line-height: 1.4; }
+  .opendata .row-page p {
+    color: #888;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 6px; }
+  .opendata .row-page a {
+    color: #00995d;
+    font-size: 18px;
+    line-height: 1.4; }
+  .opendata .row-page .column_a {
+    width: 30%;
+    float: left;
+    margin-left: 1.66667%;
+    margin-right: 1.66667%;
+    padding: 10px; }
+  .opendata .row-page .column_b {
+    width: 63.33333%;
+    float: left;
+    margin-left: 1.66667%;
+    margin-right: 1.66667%;
+    padding: 10px; } }
+
 .clear {
   clear: both; }
 
