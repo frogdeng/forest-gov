@@ -1074,6 +1074,49 @@ h2 {
     align-items: center;
     color: #FFF; } }
 
+@media (min-width: 0) and (max-width: 1299px) {
+  .bird-base {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: none; }
+  .bird-base:after {
+    content: " ";
+    display: block;
+    clear: both; } }
+
+@media (min-width: 1300px) {
+  .bird-base {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 150px; }
+  .bird-base:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .bird-base .asidebird {
+    position: absolute;
+    width: 270px;
+    height: 276px;
+    right: 0;
+    bottom: 500px;
+    z-index: 2000; }
+  .bird-base .asidebird img {
+    width: 100%; }
+  .bird-base .uglyfrog {
+    position: absolute;
+    width: 250px;
+    height: 118px;
+    left: 30px;
+    bottom: -60px;
+    z-index: 2100; }
+  .bird-base .uglyfrog img {
+    width: 100%; } }
+
 @media (min-width: 0) and (max-width: 863px) {
   .hotvideo {
     max-width: 720px;
