@@ -110,8 +110,8 @@ $susy: (debug: (image: hide))
 					input
 						margin-right: 8px
 		.result
-			+span(6)
-			padding: 0 10px
+			// +span(6)
+			// padding: 0 10px
 			margin-bottom: 10px
 
 			.result_item
@@ -142,7 +142,7 @@ $susy: (debug: (image: hide))
 				
 				h5 
 					font-size: 13px
-					color: #5fb8eb
+					color: #5fb6eb
 					margin-left: 13px
 					line-height: 1.3
 					margin-bottom: 8px
@@ -164,6 +164,61 @@ $susy: (debug: (image: hide))
 						font-size: 16px
 						color: #555
 						line-height: 1.3
+					input
+						margin-right: 7px
+			.result_item_list
+				+span(6)
+				background: #f3f1f1
+				margin-bottom: 10px
+				display: flex
+				justify-content: flex-start
+				align-items: center
+				padding: 10px
+				.photo
+					position: relative
+					width: 40%
+					margin-right: 20px
+					.play_btn
+						width: 100%
+						height: 100%
+						position: absolute
+						display: -webkit-flex
+						display: -moz-flex
+						display: -ms-flex
+						display: -o-flex
+						display: flex
+						justify-content: center
+						align-items: center
+						img
+							width: 20%
+
+					img
+						display: block
+						width: 100%
+				h6
+					width: 85% 
+					font-size: 16px
+					color: #555
+					line-height: 1.3
+					margin-bottom: 8px
+				h5 
+					font-size: 13px
+					color: #5fb8eb
+					line-height: 1.3
+					margin-bottom: 8px
+				p 
+					font-size: 13px
+					color: #888
+					line-height: 1.3
+					margin-bottom: 3px
+				.i-title
+					margin-bottom: 8px
+					padding: 0 10px
+					display: -webkit-flex
+					display: flex
+					justify-content: flex-start
+					align-items: center
+					
 					input
 						margin-right: 7px
 
@@ -302,6 +357,62 @@ $susy: (debug: (image: hide))
 					input
 						margin-right: 7px
 
+			.result_item_list
+				+span(12)
+				background: #f3f1f1
+				margin-bottom: 10px
+				display: flex
+				justify-content: flex-start
+				align-items: center
+				padding: 10px
+				.photo
+					position: relative
+					width: 40%
+					margin-right: 20px
+					.play_btn
+						width: 100%
+						height: 100%
+						position: absolute
+						display: -webkit-flex
+						display: -moz-flex
+						display: -ms-flex
+						display: -o-flex
+						display: flex
+						justify-content: center
+						align-items: center
+						img
+							width: 20%
+
+					img
+						display: block
+						width: 100%
+				h6
+					width: 85% 
+					font-size: 16px
+					color: #555
+					line-height: 1.3
+					margin-bottom: 8px
+				h5 
+					font-size: 13px
+					color: #5fb8eb
+					line-height: 1.3
+					margin-bottom: 8px
+				p 
+					font-size: 13px
+					color: #888
+					line-height: 1.3
+					margin-bottom: 3px
+				.i-title
+					margin-bottom: 8px
+					padding: 0 10px
+					display: -webkit-flex
+					display: flex
+					justify-content: flex-start
+					align-items: center
+					
+					input
+						margin-right: 7px
+
 				
 
 
@@ -351,7 +462,7 @@ $susy: (debug: (image: hide))
 					color: #c8c8c8
 
 		.related_link
-			
+		
 			.result_item
 				+span(3)
 				background: #e0e0e0
@@ -485,6 +596,12 @@ $susy: (debug: (image: hide))
 					margin-left: 13px
 					line-height: 1.3
 					margin-bottom: 3px
+
+
+
+
+
+
 		
 .photo_page
 	+susy-breakpoint($breakpoint_pad, $pad)

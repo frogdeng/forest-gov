@@ -2566,11 +2566,6 @@ h2 {
   .search_section .after_classification .datatype .checkdata input {
     margin-right: 8px; }
   .search_section .result {
-    width: 94.44444%;
-    float: left;
-    margin-left: 2.77778%;
-    margin-right: 2.77778%;
-    padding: 0 10px;
     margin-bottom: 10px; }
   .search_section .result .result_item {
     width: 94.44444%;
@@ -2603,7 +2598,7 @@ h2 {
     margin-bottom: 10px; }
   .search_section .result .result_item h5 {
     font-size: 13px;
-    color: #5fb8eb;
+    color: #5fb6eb;
     margin-left: 13px;
     line-height: 1.3;
     margin-bottom: 8px; }
@@ -2628,6 +2623,69 @@ h2 {
     color: #555;
     line-height: 1.3; }
   .search_section .result .result_item .i-title input {
+    margin-right: 7px; }
+  .search_section .result .result_item_list {
+    width: 94.44444%;
+    float: left;
+    margin-left: 2.77778%;
+    margin-right: 2.77778%;
+    background: #f3f1f1;
+    margin-bottom: 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px; }
+  .search_section .result .result_item_list .photo {
+    position: relative;
+    width: 40%;
+    margin-right: 20px; }
+  .search_section .result .result_item_list .photo .play_btn {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .search_section .result .result_item_list .photo .play_btn img {
+    width: 20%; }
+  .search_section .result .result_item_list .photo img {
+    display: block;
+    width: 100%; }
+  .search_section .result .result_item_list h6 {
+    width: 85%;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.3;
+    margin-bottom: 8px; }
+  .search_section .result .result_item_list h5 {
+    font-size: 13px;
+    color: #5fb8eb;
+    line-height: 1.3;
+    margin-bottom: 8px; }
+  .search_section .result .result_item_list p {
+    font-size: 13px;
+    color: #888;
+    line-height: 1.3;
+    margin-bottom: 3px; }
+  .search_section .result .result_item_list .i-title {
+    margin-bottom: 8px;
+    padding: 0 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center; }
+  .search_section .result .result_item_list .i-title input {
     margin-right: 7px; } }
 
 @media (min-width: 864px) {
@@ -2786,6 +2844,69 @@ h2 {
     color: #555;
     line-height: 1.3; }
   .search_section .result .result_item .i-title input {
+    margin-right: 7px; }
+  .search_section .result .result_item_list {
+    width: 96.66667%;
+    float: left;
+    margin-left: 1.66667%;
+    margin-right: 1.66667%;
+    background: #f3f1f1;
+    margin-bottom: 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px; }
+  .search_section .result .result_item_list .photo {
+    position: relative;
+    width: 40%;
+    margin-right: 20px; }
+  .search_section .result .result_item_list .photo .play_btn {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .search_section .result .result_item_list .photo .play_btn img {
+    width: 20%; }
+  .search_section .result .result_item_list .photo img {
+    display: block;
+    width: 100%; }
+  .search_section .result .result_item_list h6 {
+    width: 85%;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.3;
+    margin-bottom: 8px; }
+  .search_section .result .result_item_list h5 {
+    font-size: 13px;
+    color: #5fb8eb;
+    line-height: 1.3;
+    margin-bottom: 8px; }
+  .search_section .result .result_item_list p {
+    font-size: 13px;
+    color: #888;
+    line-height: 1.3;
+    margin-bottom: 3px; }
+  .search_section .result .result_item_list .i-title {
+    margin-bottom: 8px;
+    padding: 0 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center; }
+  .search_section .result .result_item_list .i-title input {
     margin-right: 7px; } }
 
 @media (min-width: 0) and (max-width: 863px) {
